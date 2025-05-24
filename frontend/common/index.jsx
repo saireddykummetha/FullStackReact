@@ -1,4 +1,4 @@
-const backendDomain='https://fullstackreact-6.onrender.com'
+const backendDomain='https://fullstackreact-7.onrender.com'
 
 const SummaryApi={
     signUp:{
