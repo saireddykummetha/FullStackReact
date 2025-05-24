@@ -9,7 +9,7 @@ const router = require("./routes/index.jsx");
 const app = express();
 
 app.use(cors({
-  origin:https://full-stack-react-topaz.vercel.app,
+  origin:https:process.env.FRONTEND_URL,
   credentials:true,
 }));
 app.use(express.json()); 
